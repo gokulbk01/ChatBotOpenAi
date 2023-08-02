@@ -13,7 +13,7 @@ Original file is located at
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "enter your key here"
 
 def openai_chat(prompt):
     completions = openai.Completion.create(
